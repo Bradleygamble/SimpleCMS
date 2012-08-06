@@ -1,0 +1,7 @@
+CREATE TABLE  `simplecms`.`users` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`username` VARCHAR( 24 ) NOT NULL ,
+`email` VARCHAR( 200 ) NOT NULL ,
+`password` VARCHAR( 80 ) NOT NULL ,
+`locked` INT NOT NULL DEFAULT  '0'
+) ENGINE = MYISAM ;
