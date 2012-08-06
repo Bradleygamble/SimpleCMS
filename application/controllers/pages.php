@@ -11,6 +11,12 @@ class Pages extends CI_Controller {
 
 	}
 
+	public function index() {
+
+		redirect('/pages/home');
+
+	}
+
 	public function home() {
 
 		$this->parser->parse('header', $this->data);

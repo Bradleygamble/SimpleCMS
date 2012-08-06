@@ -6,8 +6,18 @@
 
 	<body>
 		<div class="navigation">
-			<a href="/pages/home">homepage</a>
-			<a href="/pages/register">register</a>
+			<div class="login">
+				<form action="" method="post">
+					<label for="username" />
+						<input type="input" name="username" />
+					<label for="username" />
+						<input type="input" name="username" />
+
+						<input type="submit" value="Log in" />
+				</form>
+			</div>
+			<a href="/pages/home"><div class="link {active_link}">homepage</div></a>
+			<a href="/pages/register"><div class="link {active_link}">register</div></a>
 		</div>
 
 		<div class="content">
