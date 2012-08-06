@@ -9,11 +9,11 @@
 			<div class="login">
 				<form action="" method="post">
 					<label for="username" />
-						<input type="input" name="username" />
-					<label for="username" />
-						<input type="input" name="username" />
+						<input class="usernamebox" type="input" name="username" value="username" />
+					<label for="password" />
+						<input class="passbox" type="password" name="password" value="password" />
 
-						<input type="submit" value="Log in" />
+						<input class="loginbtn" type="submit" value="Log in" />
 				</form>
 			</div>
 			<a href="/pages/home"><div class="link {active_link}">homepage</div></a>

@@ -1,7 +1,7 @@
 
-body { font-family:Arial; margin:0; padding:0;}
+body { color: #666; font-family:Arial; margin:0; padding:0;}
 
-.navigation { width:1000px; height:30px; background:#999; padding-left:15px; padding-right:15px; padding-top:15px; margin:auto auto; }
+.navigation { width:1000px; height:50px; background:#999; padding-left:15px; padding-right:15px; padding-top:15px; margin:auto auto; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;}
 	.navigation .link { padding:5px; padding-left:10px; padding-right:10px; padding-bottom:9px; margin-left:2px; margin-right:2px; float:left; font-weight:bold; font-size:14px; }
 	.navigation .link:hover { background:#AAA; }
 
@@ -10,9 +10,15 @@ body { font-family:Arial; margin:0; padding:0;}
 	.navigation a:hover { color:#444; text-decoration: none; }
 	.navigation .active { background:#AAA; color:#444; }
 
-.header { width:1000px; margin:auto auto; margin-bottom:10px; }
+.header { width:1000px; height: 50px; margin:auto auto; margin-bottom:10px; }
 
 .login { float:right; }
+
+.usernamebox { color: #666; border: 1px solid #666; font-weight: 12px; padding: 2px 2px 2px 5px; box-shadow: 2px 2px 2px #888; border-radius: 4px;}
+
+.passbox { color: #666; border: 1px solid #666; font-weight: 12px; padding: 2px 2px 2px 5px; box-shadow: 2px 2px 2px #888; border-radius: 4px;}
+
+.loginbtn { color: #666; border: 1px solid #666; font-weight: 12px; padding: 2px 2px 2px 2px; width: 55px; box-shadow: 2px 2px 2px #888; border-radius: 4px; cursor: pointer;}
 
 .content { width:1000px; margin:auto auto; }
 
