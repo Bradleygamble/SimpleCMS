@@ -48,10 +48,19 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'ci_projects';
+	$host = "local"; // HOST [local] OR [000]
+
+if($host = 'local') {
+	$db['default']['hostname'] = 'localhost';
+	$db['default']['username'] = 'root';
+	$db['default']['password'] = '';
+	$db['default']['database'] = 'simplecms';
+} else {
+	$db['default']['hostname'] = 'localhost';
+	$db['default']['username'] = 'ienjoypo_juicy';
+	$db['default']['password'] = 'juicyisace';
+	$db['default']['database'] = 'ienjoypo_juicy';
+}
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
