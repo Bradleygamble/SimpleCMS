@@ -6,12 +6,13 @@
 
 	<body>
 		<div class="navigation">
+			<div class="loginbar">Login</div>
 			<div class="login">
 				<form action="" method="post">
 					<label for="username" />
-						<input class="usernamebox" type="input" name="username" value="username" />
+						<input class="usernamebox" type="input" name="username" value="username" OnFocus="this.value='';" OnBlur="if(this.value=='') { this.value='username'; }" />
 					<label for="password" />
-						<input class="passbox" type="password" name="password" value="password" />
+						<input class="passbox" type="password" name="password" value="password" OnFocus="this.value='';" OnBlur="if(this.value=='') { this.value='password'; }" />
 
 						<input class="loginbtn" type="submit" value="Log in" />
 				</form>
