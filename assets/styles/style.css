@@ -1,25 +1,132 @@
 
-body { color: #666; font-family:Arial; margin:0; padding:0;}
+body {
+color: #666;
+font-family:Arial;
+margin:0;
+padding:0;
+}
+.navigation {
+width:1000px;
+height:75px;
+background:#999;
+box-shadow: 2px 2px 2px #888;
+padding:15px 15px 0px 15px;
+margin:auto auto;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.navigation .link {
+padding:5px;
+padding: 0px 10px 9px 10px;
+margin-left:2px;
+margin-right:2px;
+float:left;
+font-weight:bold;
+font-size:14px;
+}
+.navigation .link:hover {
+background:#AAA;
+}
+	.navigation a:link {
+	color:#FFF;
+	text-decoration: none;
+	}
+	.navigation a:visited {
+	color:#FFF;
+	text-decoration: none;
+	}
+	.navigation a:hover {
+	color:#444;
+	text-decoration: none;
+	}
+	.navigation .active {
+	background:#AAA;
+	color:#444;
+	}
 
-.navigation { width:1000px; height:50px; background:#999; padding-left:15px; padding-right:15px; padding-top:15px; margin:auto auto; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;}
-	.navigation .link { padding:5px; padding-left:10px; padding-right:10px; padding-bottom:9px; margin-left:2px; margin-right:2px; float:left; font-weight:bold; font-size:14px; }
-	.navigation .link:hover { background:#AAA; }
+.header {
+width:1000px;
+height: 50px;
+margin:auto auto;
+margin-bottom:10px;
+}
 
-	.navigation a:link { color:#FFF; text-decoration: none; }
-	.navigation a:visited { color:#FFF; text-decoration: none; }
-	.navigation a:hover { color:#444; text-decoration: none; }
-	.navigation .active { background:#AAA; color:#444; }
+.loginbar{
+float: right;
+background: #000;
+color: #fff;
+height: 25px;
+width: 150px;
+}
+.login {
+float:right;
+}
 
-.header { width:1000px; height: 50px; margin:auto auto; margin-bottom:10px; }
+.usernamebox {
+color: #666;
+border: 1px solid #666;
+font-weight: 12px;
+padding: 2px 2px 2px 5px;
+box-shadow: 2px 2px 2px #888;
+border-radius: 4px;
+}
 
-.login { float:right; }
+.passbox {
+color: #666;
+border: 1px solid #666;
+font-weight: 12px;
+padding: 2px 2px 2px 5px;
+box-shadow: 2px 2px 2px #888;
+border-radius: 4px;
+}
 
-.usernamebox { color: #666; border: 1px solid #666; font-weight: 12px; padding: 2px 2px 2px 5px; box-shadow: 2px 2px 2px #888; border-radius: 4px;}
+.usernamebox:focus{
+color: #666;
+border: 1px solid #fff;
+font-weight: 12px;
+padding: 2px 2px 2px 5px;
+box-shadow: 2px 2px 2px #888;
+border-radius: 4px;
+}
 
-.passbox { color: #666; border: 1px solid #666; font-weight: 12px; padding: 2px 2px 2px 5px; box-shadow: 2px 2px 2px #888; border-radius: 4px;}
+.loginbtn {
+color: #666;
+border: 1px solid #666;
+font-weight: 12px;
+padding: 2px 2px 2px 2px;
+width: 55px;
+box-shadow: 2px 2px 2px #888;
+border-radius: 4px;
+cursor: pointer;
+}
 
-.loginbtn { color: #666; border: 1px solid #666; font-weight: 12px; padding: 2px 2px 2px 2px; width: 55px; box-shadow: 2px 2px 2px #888; border-radius: 4px; cursor: pointer;}
+.loginbtn:hover {
+color: #666;
+background-color: #d3d3d3;
+border: 1px solid #666;
+font-weight: 12px;
+padding: 2px 2px 2px 2px;
+width: 55px;
+box-shadow: 2px 2px 2px #888;
+border-radius: 4px;
+cursor: pointer;
+}
 
-.content { width:1000px; margin:auto auto; }
+.content {
+width:1000px;
+margin:auto auto;
+padding: 10px 0px 10px 0px;
+}
 
-.footer { width:1000px; margin:auto auto; margin-top:10px; }
+.footer {
+color: #fff;
+position: absolute; bottom: 0; left: 0; right: 0;
+width:1000px;
+height:30px;
+background:#999;
+padding:15px 15px 0px 15px;
+margin-right:auto;
+margin-left: auto;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
